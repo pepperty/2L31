@@ -112,9 +112,9 @@ def customCallback(client, userdata, message):
 # privateKeyPath = "certs/private.pem.key"
 
 host = "a1x0dm3q26289z-ats.iot.ap-southeast-1.amazonaws.com"
-rootCAPath = "/home/DEV01/AWS/certsP/AmazonRootCA1.pem"
-certificatePath = "/home/DEV01/AWS/certsP/device.pem.crt"
-privateKeyPath = "/home/DEV01/AWS/certsP/private.pem.key"
+rootCAPath = "/home/DEV01/2L31/certsP/AmazonRootCA1.pem"
+certificatePath = "/home/DEV01/2L31/certsP/device.pem.crt"
+privateKeyPath = "/home/DEV01/2L31/certsP/private.pem.key"
 
 port = 8883
 useWebsocket = False
