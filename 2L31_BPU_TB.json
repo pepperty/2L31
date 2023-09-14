@@ -1,0 +1,134 @@
+{
+    "gateway": "2L31-BOOSTERPUMP-BPU B3702",
+    "topic": "iot/boosterpump",
+    "devices": [
+      {
+        "name": "Roof Tank 3 #2",
+        "tags": [
+          {
+            "name": "Status",
+            "value": "",
+            "value_type": "STRING",
+            "unit": ""
+          },
+          {
+            "name": "Tank Level",
+            "value": "",
+            "value_type": "INTEGER",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "name": "Roof Tank 4 #2",
+        "tags": [
+          {
+            "name": "Status",
+            "value": "",
+            "value_type": "STRING",
+            "unit": ""
+          },
+          {
+            "name": "Tank Level",
+            "value": "",
+            "value_type": "INTEGER",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "name": "Pump 3 #2",
+        "tags": [
+          {
+            "name": "Current",
+            "value": "",
+            "value_type": "DOUBLE",
+            "unit": "A"
+          },
+          {
+            "name": "Run",
+            "value": "",
+            "value_type": "STRING",
+            "unit": ""
+          },
+          {
+            "name": "Overload",
+            "value": "",
+            "value_type": "BOOLEAN",
+            "unit": ""
+          },
+          {
+            "name": "Mode",
+            "value": "",
+            "value_type": "STRING",
+            "unit": ""
+          },
+          {
+            "name": "VSD",
+            "value": "",
+            "value_type": "BOOLEAN",
+            "unit": ""
+          },
+          {
+            "name": "DOL",
+            "value": "",
+            "value_type": "BOOLEAN",
+            "unit": ""
+          },
+          {
+            "name": "Vibration Status",
+            "value": "",
+            "value_type": "INTEGER",
+            "unit": "mm/s"
+          }
+        ]
+      },
+      {
+        "name": "Pump 4 #2",
+        "tags": [
+          {
+            "name": "Current",
+            "value": "",
+            "value_type": "DOUBLE",
+            "unit": "A"
+          },
+          {
+            "name": "Run",
+            "value": "",
+            "value_type": "STRING",
+            "unit": ""
+          },
+          {
+            "name": "Overload",
+            "value": "",
+            "value_type": "BOOLEAN",
+            "unit": ""
+          },
+          {
+            "name": "Mode",
+            "value": "",
+            "value_type": "STRING",
+            "unit": ""
+          },
+          {
+            "name": "VSD",
+            "value": "",
+            "value_type": "BOOLEAN",
+            "unit": ""
+          },
+          {
+            "name": "DOL",
+            "value": "",
+            "value_type": "BOOLEAN",
+            "unit": ""
+          },
+          {
+            "name": "Vibration Status",
+            "value": "",
+            "value_type": "INTEGER",
+            "unit": "mm/s"
+          }
+        ]
+      }
+    ]
+  }
