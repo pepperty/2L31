@@ -307,14 +307,14 @@ if __name__ == '__main__':
                         myAWSIoTMQTTClient.publish(topic, messageJson1, 0)
                         tlMill = int(time.time())
 
-                        if mode == 'publish':
-                            print('Published topic %s: %s\n' % (topic, messageJson1))
+                        # if mode == 'publish':
+                        #     print('Published topic %s: %s\n' % (topic, messageJson1))
             # Reset by pressing CTRL + C
             time.sleep(30)
             # Append log data to the CSV file
             log_data.append(connect())
-            log_data.append(json_data1['devices'][1]['tags'][2]['value'])
-            log_data.append(json_data1['devices'][1]['tags'][3]['value'])
+            log_data.append(json_data1['devices'][0]['tags'][0]['value'])
+            log_data.append(json_data1['devices'][1]['tags'][0]['value'])
             with open(csv_filename, mode="a", newline="") as file:
                 writer = csv.writer(file)
                 writer.writerow(log_data)
