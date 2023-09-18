@@ -205,7 +205,6 @@ with open('/home/DEV01/2L31/2L31_BPU_TA.json', 'r') as file:
 if __name__ == '__main__':
     while True:
         try:
-            Alarm = 0
             def connect(host='http://google.com'):
                 try:
                     urllib.request.urlopen(host) #Python 3.x
