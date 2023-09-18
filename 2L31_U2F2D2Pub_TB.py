@@ -31,6 +31,10 @@ import os
 import time
 import statistics
 
+# log
+import csv
+import datetime
+
 
 Alast = 0
 Blast = 0
