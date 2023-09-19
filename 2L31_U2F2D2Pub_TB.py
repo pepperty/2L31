@@ -282,7 +282,7 @@ if __name__ == '__main__':
                             json_data1['devices'][0]['tags'][0]['value'] = "Leak"
                         elif DET01_state == GPIO.HIGH:
                             json_data1['devices'][0]['tags'][0]['value'] = "Nomal"
-                        elif DET02_state == GPIO.LOW:
+                        if DET02_state == GPIO.LOW:
                             json_data1['devices'][1]['tags'][0]['value'] = "Leak"
                         elif DET02_state == GPIO.HIGH:
                             json_data1['devices'][1]['tags'][0]['value'] = "Nomal"
