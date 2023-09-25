@@ -255,7 +255,7 @@ if __name__ == '__main__':
                         dist_B_list.append(0)
                         print("#UB")
                 if len(dist_A_list)>0:
-                    dist_A = round(min(dist_A_list),3)
+                    dist_A = Anow-round(min(dist_A_list),3)
                 if len(dist_B_list)>0:
                     dist_B = round(min(dist_B_list),3)
 
