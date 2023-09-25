@@ -33,7 +33,7 @@ import datetime
 import RPi.GPIO as GPIO
 import os
 import time
-import statistics
+from statistics import mean
 
 Alast = 0
 Blast = 0
@@ -255,7 +255,7 @@ if __name__ == '__main__':
                         dist_B_list.append(0)
                         print("#UB")
                 if len(dist_A_list)>0:
-                    dist_A = round(Anow-min(dist_A_list),3)
+                    dist_A = round(Anow-mean(dist_A_list),3)
                 if len(dist_B_list)>0:
                     dist_B = round(min(dist_B_list),3)
 
