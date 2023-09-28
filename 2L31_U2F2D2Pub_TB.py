@@ -235,7 +235,6 @@ if __name__ == '__main__':
                 dist_A_list = []
                 dist_B_list = []
                 for i in range(10):
-                    time.sleep(0.5)
                     Anow = measure(IO_TRIG01,IO_EXC01)
                     if(Anow > -1):
                         #if (Anow - Alast <50 and Anow - Alast > -50) or Alast == 0:
@@ -244,8 +243,7 @@ if __name__ == '__main__':
                     else:
                         dist_A_list.append(0)
                         print("#UA")
-                        
-                    time.sleep(0.5)
+                for i in range(10):
                     Bnow = measure(IO_TRIG02,IO_EXC02)
                     if(Bnow > -1):
                         #if (Bnow - Blast <50 and Bnow - Blast > -50) or Blast == 0:
@@ -255,7 +253,7 @@ if __name__ == '__main__':
                         dist_B_list.append(0)
                         print("#UB")
                 if len(dist_A_list)>0:
-                    dist_A = round((Anow-min(dist_A_list))/100,3)
+                    dist_A = round(min(dist_B_list),3)
                 if len(dist_B_list)>0:
                     dist_B = round(min(dist_B_list),3)
 
